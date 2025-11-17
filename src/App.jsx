@@ -1,9 +1,12 @@
 import React from 'react'
+import Hero from './components/Hero'
+import About from './components/About'
 
 const App = () => {
   return (
-    <main>
-      <h1 className='text-3xl text-violet-300 font-circular-web font-bold underline'>Hello World</h1>
+    <main className='relative min-h-screen w-screen overflow-x-hidden'>
+      <Hero />
+      <About/>
     </main>
   )
 }
