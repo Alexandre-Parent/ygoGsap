@@ -3,6 +3,8 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Navbar from './components/Navbar'
 import Features from './components/Features'
+import FloatingImage from './components/Story'
+import Product from './components/Products'
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <Hero />
       <About/>
       <Features/>
+      <FloatingImage/>
+      <Product/>
     </main>
   )
 }

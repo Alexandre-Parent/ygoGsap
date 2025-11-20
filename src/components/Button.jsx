@@ -11,7 +11,8 @@ const Button = ({ id, title, rightIcon, leftIcon, containerClass }) => {
     >
       {leftIcon}
 
-      <span className="relative inline-flex overflow-hidden font-general text-xs uppercase">
+      {/* 🚀 Correction Finale : Ajout de "leading-none" et maintien de "whitespace-nowrap" */}
+      <span className="relative inline-flex overflow-hidden font-general text-xs uppercase **whitespace-nowrap leading-none**">
         <div className="translate-y-0 skew-y-0 transition duration-500 group-hover:translate-y-[-160%] group-hover:skew-y-12">
           {title}
         </div>

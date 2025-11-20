@@ -4,7 +4,7 @@ dist-ssr
 *.local
 
 # Media
-public/videos/
+# public/videos/
 
 # Logs
 npm-debug.log*
